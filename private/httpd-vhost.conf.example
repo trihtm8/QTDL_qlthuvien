@@ -1,0 +1,10 @@
+<VirtualHost *:80>  
+    DocumentRoot "F:/Thuvienonline/public" 
+    ServerName thuvienonline.localhost
+    # Set access permission 
+    <Directory "F:/Thuvienonline/public"> 
+        Options Indexes FollowSymLinks Includes ExecCGI
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
