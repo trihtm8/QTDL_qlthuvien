@@ -1,8 +1,8 @@
 <VirtualHost *:80>  
-    DocumentRoot "F:/Thuvienonline/public" 
-    ServerName thuvienonline.localhost
+    DocumentRoot "F:/ProjectsQTDL/public" 
+    ServerName qlthuvien.localhost
     # Set access permission 
-    <Directory "F:/Thuvienonline/public"> 
+    <Directory "F:/ProjectsQTDL/public"> 
         Options Indexes FollowSymLinks Includes ExecCGI
         AllowOverride All
         Require all granted
